@@ -1,0 +1,54 @@
+/* Import a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-image: url('./pier-solitude-black-and-white-portrayal-of-a-serene-fishing-jetty-scene-for-social-media-post-size-ai-generated-free-photo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Very dark background */
+    margin: 0;
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+.counter-widget {
+    background-color: #1e1e1e; /* Slightly lighter dark background for the widget */
+    border-radius: 12px; /* More rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); /* Stronger shadow for depth */
+    padding: 30px; /* Increased padding for better spacing */
+    text-align: center;
+    border: 2px solid #6386aa; /* Bright blue border for accent */
+}
+
+h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px;
+    color: #1e90ff; /* Bright blue color for the heading */
+}
+
+button {
+    background-color: #1e90ff; /* Bright blue button background */
+    color: #fff; /* White text on buttons */
+    border: none;
+    border-radius: 6px; /* Slightly more rounded corners */
+    padding: 12px 24px; /* Increased padding for better button size */
+    margin: 8px; /* More margin for spacing between buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 700; /* Bold font weight for buttons */
+}
+
+button:hover {
+    background-color: #4682b4; /* Lighter blue shade on hover */
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+button:active {
+    background-color: #4169e1; /* Even darker shade when button is pressed */
+    transform: scale(1); /* Reset zoom effect */
+}
